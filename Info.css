@@ -1,0 +1,123 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body { background:rgb(30,30,40);  min-width: 700px ;}
+
+.feedback-input {
+  color:white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #CC6666;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:2px solid #CC4949; }
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#CC6666;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:15;
+  padding-top:10px;
+  padding-bottom:10px;
+  font-weight:00;
+  
+}
+[type="submit"]:hover { background:#CC4949; }
+
+[type="button"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 170px;
+  background:#CC6666;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:13;
+  padding-top:10px;
+  padding-bottom:10px;
+  font-weight:300;
+  margin-bottom: 10px;
+  
+  
+  
+}
+[type="button"]:hover { background:#CC4949; }
+.title
+{
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  color: #CC6666;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+}
+p
+{
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  color: #CC6666;
+}
+.LastDaybuttons
+{
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 500px;
+  background:#CC6666;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:13;
+  padding-top:10px;
+  padding-bottom:10px;
+  font-weight:300;
+}
+td
+{
+  text-align: center;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  color: white;
+  
+}
+th
+{
+  text-align: center;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  color: white;
+  width: 500px;
+  height: 70px;
+}
+tr
+{
+ border-style: solid;
+  border-color: #CC6666;
+  height: 30px;
+}
+option
+{
+  color: #CC4949 
+}
+footer {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  color: #fff;
+  background: #CC4949 ;
+  bottom: 0;
+  left: 0;
+  padding: 20px 0;
+  position: fixed;
+  right: 0;
+  text-align: center;
+}
+
+.navbar{
+  width: 100%;
+}
